@@ -8,10 +8,10 @@ background-attachment: fixed;
 
 
 .navbar {
-    background-color: #f8f8f8; 
     overflow: hidden;
     padding: 10px 0;
     border-bottom: 1px solid black; 
+    font-family: roboto;
   }
 
 
@@ -49,3 +49,16 @@ background-attachment: fixed;
         transform: translateY(-10px);
     }
  }
+
+ @font-face {
+    font-family: 'Roboto';
+    src: url('path/to/roboto-regular.woff2') format('woff2'),
+         url('path/to/roboto-regular.woff') format('woff'),
+         url('path/to/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.Font{
+    font-family: Roboto;
+}
