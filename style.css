@@ -1,0 +1,64 @@
+body{
+    background-image: url(Images/tsburger.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    
+    
+    
+    .navbar {
+        overflow: hidden;
+        padding: 10px 0;
+        border-bottom: 1px solid black; 
+        font-family: roboto;
+      }
+    
+    
+        
+    
+      .navbar ul li {
+        display: inline-block; 
+        margin: 0 15px; 
+      }
+    
+      
+    
+      .navbar ul li a {
+        display: block;
+        color: #333; /* Dark gray text */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    
+      .navbar  ul li a:hover{
+        color: lightblue;
+      }
+     
+     .navbar a:hover{
+        animation: bounce 2.5s infinite;
+     }
+     @keyframes bounce {
+        0%,
+        100% {
+            transform:translateY(0) ;
+        }
+        
+        50% {
+            transform: translateY(-10px);
+        }
+     }
+    
+     @font-face {
+        font-family: 'Roboto';
+        src: url('path/to/roboto-regular.woff2') format('woff2'),
+             url('path/to/roboto-regular.woff') format('woff'),
+             url('path/to/roboto-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+     }
+    
+    .Font{
+        font-family: Roboto;
+    }
